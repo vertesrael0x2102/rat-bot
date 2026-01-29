@@ -32,7 +32,7 @@ Install dependencies:
 pip install discord.py requests pyinstaller
 ```
 
-##Setup
+## Setup
 
 - Create a Discord bot and copy the token
 - Replace the token in the script:
@@ -40,21 +40,21 @@ pip install discord.py requests pyinstaller
 DISCORD_TOKEN = "YOUR_BOT_TOKEN"
 ```
 
-##Run the script:
+## Run the script:
 ```bash
 python bot.py
 ```
 
-##Optional: Build EXE
+## Optional: Build EXE
 ```bash
 pip install discord.py requests pyinstaller
 ```
-##Usage
+## Usage
 
 - Type any PowerShell command in the created Discord channel
 - The bot replies with the output
 
-##Notes
+## Notes
 
 - PowerShell session is persistent
 - PowerShell window is hidden
