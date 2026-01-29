@@ -30,3 +30,32 @@ A simple Discord bot that executes **PowerShell commands** sent through a Discor
 Install dependencies:
 ```bash
 pip install discord.py requests pyinstaller
+```
+
+##Setup
+
+- Create a Discord bot and copy the token
+- Replace the token in the script:
+```bash
+DISCORD_TOKEN = "YOUR_BOT_TOKEN"
+```
+
+##Run the script:
+```bash
+python bot.py
+```
+
+##Optional: Build EXE
+```bash
+pip install discord.py requests pyinstaller
+```
+##Usage
+
+- Type any PowerShell command in the created Discord channel
+- The bot replies with the output
+
+##Notes
+
+- PowerShell session is persistent
+- PowerShell window is hidden
+- Commands only work in the created channel
